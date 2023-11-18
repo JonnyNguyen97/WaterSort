@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2231173380133915904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2231173380133915906}
+  - component: {fileID: 2231173380133915907}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2231173380133915906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2231173380133915904}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2231173380133915907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2231173380133915904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f464e19cbcb7fd3408b66756c11ff9b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenesData:
+  - {fileID: 11400000, guid: 887658e5ae5a5cf4fb7d936ca7b160e8, type: 2}
+  - {fileID: 11400000, guid: d5d5845484f258c419af12e6183a3028, type: 2}
+  - {fileID: 11400000, guid: 1e6823b7080b1214e9a9b6297fed4483, type: 2}
+  - {fileID: 11400000, guid: 07297c6bd48701347b638a4eabd9bf32, type: 2}
+  - {fileID: 11400000, guid: ae23b435f4242e84dbde34d4fbec8ddb, type: 2}
+  startLevel: 1
+  currentBottlesFullFill: 0
+  bottleList: []
+  objectCanvas: {fileID: 0}
+  txtCurrentLevel: {fileID: 0}

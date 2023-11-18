@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20c39127eaa7df428a3b44fff7de25c, type: 3}
+  m_Name: Case1_4layer_90D
+  m_EditorClassIdentifier: 
+  conditionToWin: 2
+  bottleList:
+  - {fileID: 5542034129136429923, guid: ebc5e53f20fd86a408f3f9720f0a2979, type: 3}
+  - {fileID: 1362472338414888262, guid: eef398f4555b666458b961750d4f1d10, type: 3}
+  - {fileID: 3169866590215270493, guid: 5e3c81dd2887621409326488a4a9fd21, type: 3}
+  posofBottlesInCavas:
+  - {x: -230, y: 195, z: 0}
+  - {x: 0, y: 195, z: 0}
+  - {x: 230, y: 195, z: 0}
